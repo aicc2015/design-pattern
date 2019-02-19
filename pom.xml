@@ -9,10 +9,10 @@
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
     <groupId>com.honglekai</groupId>
-    <artifactId>study</artifactId>
+    <artifactId>design-pattern</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <name>study</name>
-    <description>study project</description>
+    <name>design-pattern</name>
+    <description>study desgin pattern</description>
 
     <properties>
         <java.version>1.8</java.version>
