@@ -16,6 +16,10 @@ package com.honglekai.design.behavioral.strategy;
  * 2.避免使用多重条件转移语句
  * 3.提供算法的保密性和安全性
  *
+ * 缺点：
+ * 1.客户端必须知道所有的策略类，并自行决定使用哪一个策略类
+ * 2.产生很多策略类
+ *
  * company YH
  *
  * @Author hcc

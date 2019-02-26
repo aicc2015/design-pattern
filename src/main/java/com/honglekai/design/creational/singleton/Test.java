@@ -7,7 +7,26 @@ import java.lang.reflect.InvocationTargetException;
 import java.lang.reflect.Method;
 
 /**
- * description
+ * description 单例模式
+ * 定义:保证一个类仅有一个实例，提供一个全局访问点
+ *
+ * 类型：创建型
+ *
+ * 适用场景：
+ * 1.想确保任何情况下都绝对只有一个实例
+ *
+ * 优点：
+ * 1.在内存中只有一个实例，减少了内存开销
+ * 2.可以避免对资源的多重占用
+ * 3.设置全局访问点,严格控制访问
+ *
+ * 重点：
+ * 1.私有构造器
+ * 2.线程安全
+ * 3.延迟加载
+ * 4.序列化和反序列化安全
+ * 5.反射
+ *
  * 学习多线程debug调试
  * company YH
  *
